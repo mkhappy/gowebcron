@@ -1,0 +1,5 @@
+gowebcron
+bin/
+*.tar.gz
+conf/app.conf
+info.log

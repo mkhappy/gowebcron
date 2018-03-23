@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{.title }}</title>
+    </head>
+	<body>
+	你好 {{.username}}，<br/>
+	<p>以下是定时任务执行结果：</p>
+	<p>任务ID：{{.task_id}}<br/>
+	   任务名称：{{.task_name}}<br/>       
+	   执行时间：{{.start_time}}<br />
+	   执行耗时：{{.process_time}}秒<br />
+	   执行状态：{{.status}}
+	</p>
+	<p>----------以下是任务执行输出----------</p>
+	<p>{{.output}}</p>
+	<p>
+	-----------------------------------------<br />
+	本邮件由系统自动发出，请勿回复<br />
+	如果要取消邮件通知，请登录到系统进行设置<br />
+	</p>
+    </body>
+</html>
