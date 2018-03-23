@@ -293,7 +293,7 @@ func (j *Job) Run() {
 		data["task_id"] = j.task.Id
 		data["username"] = user.UserName
 		data["task_name"] = j.task.TaskName
-		data["start_time"] = beego.Date(t, "Y-m-d H:M:S")
+		data["start_time"] = beego.Date(t, "Y-m-d H:i:s")
 		data["process_time"] = float64(ut) / 1000
 		data["output"] = cmdOut
 
