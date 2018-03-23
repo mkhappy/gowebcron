@@ -1,6 +1,5 @@
 # 定时任务管理系统
-### 基于golang beego
-====
+#### 基于golang beego
 
 主要特点：
 ----
@@ -15,11 +14,11 @@
 
 安装方法    
 ----
-1、go get github.com/mkhappy/gowebcron
-2、创建mysql数据库，导入install.sql。例如：cat install | mysql -u xxx -p xxx -h host -D databasename
-3、修改conf/app.conf 配置数据库，配置邮件服务器（用以发送），以及其他配置。
-4、运行 go build 编译。
-5、运行 ./run.sh start|stop  (部分linux需要安装killall功能 yum install psmisc 或 apt-get install psmisc)
+- 1、go get github.com/mkhappy/gowebcron
+- 2、创建mysql数据库，导入install.sql。例如：cat install | mysql -u xxx -p xxx -h host -D databasename
+- 3、修改conf/app.conf 配置数据库，配置邮件服务器（用以发送），以及其他配置。
+- 4、运行 go build 编译。
+- 5、运行 ./run.sh start|stop  (部分linux需要安装killall功能 yum install psmisc 或 apt-get install psmisc)
 
 参考
 ----
